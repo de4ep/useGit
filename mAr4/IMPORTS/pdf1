@@ -1,0 +1,61 @@
+{
+   "TargetDataset": {
+      "DatasetPath": null,
+      "Metadata": {
+         "Name": "fromPdf",
+         "DatasetId": "",
+         "Host": "knoema.com",
+         "Description": "",
+         "Source": "",
+         "ReferenceUrl": "",
+         "PublicationDate": "",
+         "AccessedOn": ""
+      }
+   },
+   "DataSource": {
+      "Id": "PDF",
+      "File": "C:\\2017\\11\\Tables.pdf",
+      "Page": 3,
+      "Table": 1,
+      "TableTop": 1,
+      "TableLeft": 0
+   },
+   "Bindings": {
+      "Mappings": [
+         {
+            "SourceField": "0",
+            "TargetType": "Dimension",
+            "DimensionName": "Country",
+            "DimensionAttribute": "",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "1",
+            "TargetType": "Dimension",
+            "DimensionName": "Indicator",
+            "DimensionAttribute": "",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "2",
+            "TargetType": "Date",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "3",
+            "TargetType": "Value",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         }
+      ],
+      "Fixed": []
+   },
+   "Overwrite": false,
+   "DateFormat": "",
+   "CultureId": "",
+   "EmptyValueText": "",
+   "ReviewData": false
+}

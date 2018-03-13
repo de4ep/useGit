@@ -1,0 +1,13 @@
+{
+ "Routines": [
+  {
+   "Type": "Transformation",
+   "Path": "runOnServer\\routine1trans1"
+  },
+  {
+   "Type": "Transformation",
+   "Path": "runOnServer\\trans1"
+  }
+ ],
+ "StopIfError": true
+}

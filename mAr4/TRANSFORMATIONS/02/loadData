@@ -1,0 +1,2 @@
+var weooct = Knoema.UseDataset("weoOct");
+weooct.LoadData(new Period(new DateTime(2008, 1, 1), new DateTime(2018, 1, 1)), weooct.Dimensions["Country"]["512", "311"], weooct.Dimensions["Subject"]["NGDP_R"]);

@@ -1,0 +1,108 @@
+{
+   "TargetDataset": {
+      "DatasetPath": "",
+      "Metadata": {
+         "Name": "gdf",
+         "DatasetId": "",
+         "Host": "knoema.com",
+         "Description": "",
+         "Source": "",
+         "ReferenceUrl": "",
+         "PublicationDate": "",
+         "AccessedOn": ""
+      }
+   },
+   "DataSource": {
+      "Id": "XLSX",
+      "File": "C:\\2018\\02\\DMTS.xlsx",
+      "Sheet": "",
+      "UnpivotDataTop": 1,
+      "UnpivotDataLeft": 9,
+      "TableTop": 0,
+      "TableLeft": 0,
+      "TableBottom": 11,
+      "TableRight": 11
+   },
+   "Bindings": {
+      "Mappings": [
+         {
+            "SourceField": "0",
+            "TargetType": "Dimension",
+            "DimensionName": "Country",
+            "DimensionAttribute": "Id",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "1",
+            "TargetType": "Dimension",
+            "DimensionName": "Country",
+            "DimensionAttribute": "Name",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "2",
+            "TargetType": "Dimension",
+            "DimensionName": "Indicator",
+            "DimensionAttribute": "Id",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "3",
+            "TargetType": "Dimension",
+            "DimensionName": "Indicator",
+            "DimensionAttribute": "Name",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "4",
+            "TargetType": "TimeSeriesAttribute",
+            "AttributeName": "TS1",
+            "AttributeType": "Text",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "5",
+            "TargetType": "TimeSeriesAttribute",
+            "AttributeName": "TS2",
+            "AttributeType": "Multiselect",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "6",
+            "TargetType": "Unit",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "8",
+            "TargetType": "Frequency",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "9",
+            "TargetType": "Date",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "10",
+            "TargetType": "Value",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         }
+      ],
+      "Fixed": []
+   },
+   "Action": "Update",
+   "DateFormat": "",
+   "CultureId": "",
+   "EmptyValueText": "",
+   "ReviewData": false
+}

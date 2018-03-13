@@ -1,0 +1,35 @@
+{
+   "TargetDatasetPath": null,
+   "SourceDatasetPath": "ieyystd",
+   "IsSourceDataset": true,
+   "IsUpdateTargetDataset": false,
+   "Action": "Overwrite",
+   "DimensionMapping": [],
+   "SourceTargetMapping": [],
+   "NewDatasetSettings": {
+      "Host": "knoema.com",
+      "AppId": "",
+      "AppSecret": "",
+      "DatasetName": "tryrtyytr"
+   },
+   "Filters": [
+      {
+         "DimensionName": "Country",
+         "Elements": [
+            "WLD"
+         ]
+      },
+      {
+         "DimensionName": "Commodity",
+         "Elements": [
+            "722540"
+         ]
+      },
+      {
+         "DimensionName": "Frequency",
+         "Elements": [
+            "M"
+         ]
+      }
+   ]
+}

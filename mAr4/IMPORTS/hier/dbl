@@ -1,0 +1,70 @@
+{
+   "TargetDataset": {
+      "DatasetPath": "",
+      "Metadata": {
+         "Name": "dbl",
+         "DatasetId": "",
+         "Host": "knoema.com",
+         "Description": "",
+         "Source": "",
+         "ReferenceUrl": "",
+         "PublicationDate": "",
+         "AccessedOn": ""
+      }
+   },
+   "DataSource": {
+      "Id": "XLSX",
+      "File": "C:\\2018\\02\\hImport(2).xlsx",
+      "Sheet": "",
+      "UnpivotDataTop": 1,
+      "UnpivotDataLeft": 4,
+      "TableTop": 0,
+      "TableLeft": 0
+   },
+   "Bindings": {
+      "Mappings": [
+         {
+            "SourceField": "0",
+            "TargetType": "Dimension",
+            "DimensionName": "Country",
+            "DimensionAttribute": "",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "1",
+            "TargetType": "Dimension",
+            "DimensionName": "Country",
+            "DimensionAttribute": "Parent",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "2",
+            "TargetType": "Dimension",
+            "DimensionName": "Indicator",
+            "DimensionAttribute": "",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "4",
+            "TargetType": "Date",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "5",
+            "TargetType": "Value",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         }
+      ],
+      "Fixed": []
+   },
+   "Action": "Update",
+   "DateFormat": "",
+   "CultureId": "",
+   "EmptyValueText": "",
+   "ReviewData": false
+}

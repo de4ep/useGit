@@ -1,0 +1,98 @@
+{
+   "TargetDataset": {
+      "DatasetPath": "Egypt Trade Statistics Classification HS-6",
+      "Metadata": {
+         "Name": "Egypt Trade Statistics Classification HS-6",
+         "DatasetId": "",
+         "Host": "",
+         "Description": "",
+         "Source": "",
+         "ReferenceUrl": "",
+         "PublicationDate": "",
+         "AccessedOn": ""
+      }
+   },
+   "DataSource": {
+      "Id": "CSV",
+      "File": "C:\\2017\\11\\EGTRHS062017V_I_QTY_6.csv",
+      "Delimiter": ",",
+      "TableTop": 0,
+      "TableLeft": 0
+   },
+   "Bindings": {
+      "Mappings": [
+         {
+            "SourceField": "0",
+            "TargetType": "Dimension",
+            "DimensionName": "Country",
+            "DimensionAttribute": "Id",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "1",
+            "TargetType": "Dimension",
+            "DimensionName": "Trader",
+            "DimensionAttribute": "Id",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "2",
+            "TargetType": "Dimension",
+            "DimensionName": "Commodity",
+            "DimensionAttribute": "Id",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "3",
+            "TargetType": "Dimension",
+            "DimensionName": "Sector",
+            "DimensionAttribute": "Id",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "4",
+            "TargetType": "Dimension",
+            "DimensionName": "Indicator",
+            "DimensionAttribute": "Id",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "5",
+            "TargetType": "Dimension",
+            "DimensionName": "Measure",
+            "DimensionAttribute": "Id",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "6",
+            "TargetType": "Unit",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "8",
+            "TargetType": "Date",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "9",
+            "TargetType": "Value",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         }
+      ],
+      "Fixed": []
+   },
+   "Overwrite": false,
+   "DateFormat": "",
+   "CultureId": "",
+   "EmptyValueText": "",
+   "ReviewData": false
+}

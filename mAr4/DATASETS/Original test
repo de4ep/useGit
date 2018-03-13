@@ -1,0 +1,10 @@
+{
+  "DatasetId":"COMTRADE2015R1",
+  "Host":"knoema.com",
+  "AppID":"",
+  "AppSecret":"",
+  "ValidationRunPath":"",
+  "RedShiftFiles":[
+    "C:\\_Files\\data_COMTRADE2015R1_20171016\\chinaRed.csv"
+  ]
+}

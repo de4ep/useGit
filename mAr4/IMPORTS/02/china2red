@@ -1,0 +1,93 @@
+{
+   "TargetDataset": {
+      "DatasetPath": "Original",
+      "Metadata": {
+         "Name": "UN Comtrade: Merchandise trade by Commodity, HS - As Reported",
+         "DatasetId": "",
+         "Host": "",
+         "Description": "",
+         "Source": "",
+         "ReferenceUrl": "",
+         "PublicationDate": "",
+         "AccessedOn": ""
+      }
+   },
+   "DataSource": {
+      "Id": "XLSX",
+      "File": "C:\\2018\\02\\china.xlsx",
+      "Sheet": "",
+      "UnpivotDataTop": 1,
+      "UnpivotDataLeft": 24,
+      "TableTop": 0,
+      "TableLeft": 0
+   },
+   "Bindings": {
+      "Mappings": [
+         {
+            "SourceField": "0",
+            "TargetType": "Dimension",
+            "DimensionName": "Reporter",
+            "DimensionAttribute": "Id",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "6",
+            "TargetType": "Dimension",
+            "DimensionName": "Commodity",
+            "DimensionAttribute": "Id",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "10",
+            "TargetType": "Dimension",
+            "DimensionName": "Partner",
+            "DimensionAttribute": "Id",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "16",
+            "TargetType": "Dimension",
+            "DimensionName": "Trade Flow",
+            "DimensionAttribute": "Id",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "19",
+            "TargetType": "Dimension",
+            "DimensionName": "Indicator",
+            "DimensionAttribute": "Id",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "23",
+            "TargetType": "Unit",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "24",
+            "TargetType": "Date",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "25",
+            "TargetType": "Value",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         }
+      ],
+      "Fixed": []
+   },
+   "Action": "SaveToRedShiftFile",
+   "RedShiftFile": "C:\\2018\\02\\chinaRed.csv",
+   "DateFormat": "",
+   "CultureId": "",
+   "EmptyValueText": "",
+   "ReviewData": false
+}

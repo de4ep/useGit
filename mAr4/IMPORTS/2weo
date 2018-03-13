@@ -1,0 +1,38 @@
+{
+   "TargetDataset": {
+      "DatasetPath": "IMF World Economic Outlook (WEO) Database, October 2017",
+      "Metadata": {
+         "Name": "IMF World Economic Outlook (WEO) Database, October 2017",
+         "DatasetId": "",
+         "Host": "",
+         "Description": "",
+         "Source": "",
+         "ReferenceUrl": "",
+         "PublicationDate": "",
+         "AccessedOn": ""
+      }
+   },
+   "DataSource": {
+      "Id": "XLSX",
+      "File": "C:\\2018\\01\\WEOOct2016all1(3).xlsx",
+      "Sheet": "",
+      "TableTop": 0,
+      "TableLeft": 0
+   },
+   "Bindings": {
+      "Mappings": [
+         {
+            "SourceField": "6",
+            "TargetType": "Unit",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         }
+      ],
+      "Fixed": []
+   },
+   "Action": "Update",
+   "DateFormat": "",
+   "CultureId": "",
+   "EmptyValueText": "",
+   "ReviewData": false
+}

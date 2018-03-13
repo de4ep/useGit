@@ -1,0 +1,9 @@
+var weo = Knoema.UseDataset("WEO");
+weo.LoadData(weo.Dimensions["Indicator"]["NGDP_R"]);
+
+foreach (var country in weo.Dimensions["Country"])
+{
+	WriteLine(country["Name"]);
+	weo[country, "ngdp_rpch"] = Pch(weo[country, "ngdp_r"]);
+}
+weo.SaveData(SaveOptions.Update);

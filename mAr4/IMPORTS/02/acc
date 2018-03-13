@@ -1,0 +1,29 @@
+{
+   "TargetDataset": {
+      "DatasetPath": "",
+      "Metadata": {
+         "Name": "",
+         "DatasetId": "",
+         "Host": "knoema.com",
+         "Description": "",
+         "Source": "",
+         "ReferenceUrl": "",
+         "PublicationDate": "",
+         "AccessedOn": ""
+      }
+   },
+   "DataSource": {
+      "Id": "Access",
+      "File": "C:\\_Files\\Внешняя торговля по регионам_С 2017 года (основная база).accdb",
+      "Query": "Select\r\n\tNAPR,\r\n\tPERIOD,\r\n\tSTRANA,\r\n\tTNVED,\r\n\tEDIZM,\r\n\t'STOIM' as Indsicator,\r\n\t[Sum-STOIM] as [Value]\r\nFrom [Агрегация данных по выбранным странам]\r\nUnion \r\nSelect\r\n\tNAPR,\r\n\tPERIOD,\r\n\tSTRANA,\r\n\tTNVED,\r\n\tEDIZM,\r\n\t'NETTO' as Indsicator,\r\n\t[Sum-NETTO] as [Value]\r\nFrom [Агрегация данных по выбранным странам]\r\nUnion\r\nSelect\r\n\tNAPR,\r\n\tPERIOD,\r\n\tSTRANA,\r\n\tTNVED,\r\n\tEDIZM,\r\n\t'KOL' as Indsicator,\r\n\t[Sum-KOL] as [Value]\r\nFrom [Агрегация данных по выбранным странам]\r\n"
+   },
+   "Bindings": {
+      "Mappings": [],
+      "Fixed": []
+   },
+   "Action": "Update",
+   "DateFormat": "",
+   "CultureId": "",
+   "EmptyValueText": "",
+   "ReviewData": false
+}

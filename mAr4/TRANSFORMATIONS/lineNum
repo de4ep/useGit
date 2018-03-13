@@ -1,0 +1,4 @@
+Dataset Db = Knoema.UseDataset("knoema.com", "WBWDIGDF2017");
+var C = Db.Dimensions["country"];
+var a = C.Contains("Chn");
+WriteLine(a);

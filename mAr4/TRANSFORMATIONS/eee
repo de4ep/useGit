@@ -1,0 +1,20 @@
+var ds = Knoema.UseDataset("knoema.com", "rldkvyc");//, "4FmJOw0FBsYQfg", "rGOZ9RkvAuFVHvUN1XcW/NYTTAU");
+WriteLine("Start loading");
+ds.LoadData();
+WriteLine("End loading");
+WriteLine("Start calculating");
+var loop = 0;
+foreach (var a in ds.Dimensions["RepCRD"])
+{
+    foreach (var b in ds.Dimensions["BDFirmName"])
+    {
+        foreach (var c in ds.Dimensions["RIAFirmName"])
+        {
+            ds[a,b,c] = ds[a,b,c] + ds[a,b,c] + ds[a,b,c] + ds[a,b,c] + ds[a,b,c] + ds[a,b,c] + ds[a,b,c] + ds[a,b,c] + ds[a,b,c] + ds[a,b,c];
+            //var ser  = ds[a,b,c];
+            loop++;
+        }
+    }
+}
+WriteLine("End calculating");
+WriteLine("Loop count: " + loop.ToString());

@@ -1,0 +1,244 @@
+{
+   "TargetDataset": {
+      "DatasetPath": "",
+      "Metadata": {
+         "Name": "parInfo",
+         "DatasetId": "",
+         "Host": "knoema.com",
+         "Description": "",
+         "Source": "",
+         "ReferenceUrl": "",
+         "PublicationDate": "",
+         "AccessedOn": ""
+      }
+   },
+   "DataSource": {
+      "Id": "XLSX",
+      "File": "C:\\2018\\02\\GGM5.xlsx",
+      "Sheet": "",
+      "UnpivotDataTop": 1,
+      "UnpivotDataLeft": 25,
+      "TableTop": 0,
+      "TableLeft": 0
+   },
+   "Bindings": {
+      "Mappings": [
+         {
+            "SourceField": "0",
+            "TargetType": "Dimension",
+            "DimensionName": "Geography",
+            "DimensionAttribute": "",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "1",
+            "TargetType": "Dimension",
+            "DimensionName": "Geography",
+            "DimensionAttribute": "Name",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "2",
+            "TargetType": "Dimension",
+            "DimensionName": "Geography",
+            "DimensionAttribute": "Parent",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "3",
+            "TargetType": "Dimension",
+            "DimensionName": "Geography",
+            "DimensionAttribute": "RegionId",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "4",
+            "TargetType": "Dimension",
+            "DimensionName": "Indicators",
+            "DimensionAttribute": "",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "5",
+            "TargetType": "Dimension",
+            "DimensionName": "Indicators",
+            "DimensionAttribute": "Name",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "6",
+            "TargetType": "Dimension",
+            "DimensionName": "Indicators",
+            "DimensionAttribute": "Parent",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "7",
+            "TargetType": "Dimension",
+            "DimensionName": "Indicators",
+            "DimensionAttribute": "Full name",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "8",
+            "TargetType": "Dimension",
+            "DimensionName": "Indicators",
+            "DimensionAttribute": "Definition",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "9",
+            "TargetType": "Dimension",
+            "DimensionName": "Indicators",
+            "DimensionAttribute": "Source",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "10",
+            "TargetType": "Dimension",
+            "DimensionName": "Indicators",
+            "DimensionAttribute": "Digits",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "11",
+            "TargetType": "Dimension",
+            "DimensionName": "Scenarios",
+            "DimensionAttribute": "",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "12",
+            "TargetType": "Dimension",
+            "DimensionName": "Scenarios",
+            "DimensionAttribute": "Name",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "13",
+            "TargetType": "Dimension",
+            "DimensionName": "Scenarios",
+            "DimensionAttribute": "Parent",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "14",
+            "TargetType": "Dimension",
+            "DimensionName": "Scenarios",
+            "DimensionAttribute": "Description",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "15",
+            "TargetType": "Dimension",
+            "DimensionName": "Currency",
+            "DimensionAttribute": "",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "16",
+            "TargetType": "Dimension",
+            "DimensionName": "Currency",
+            "DimensionAttribute": "Name",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "17",
+            "TargetType": "Dimension",
+            "DimensionName": "Currency",
+            "DimensionAttribute": "Parent",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "18",
+            "TargetType": "Dimension",
+            "DimensionName": "Measures",
+            "DimensionAttribute": "",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "19",
+            "TargetType": "Dimension",
+            "DimensionName": "Measures",
+            "DimensionAttribute": "Name",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "20",
+            "TargetType": "Dimension",
+            "DimensionName": "Measures",
+            "DimensionAttribute": "Parent",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "21",
+            "TargetType": "Dimension",
+            "DimensionName": "Transformation",
+            "DimensionAttribute": "",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "22",
+            "TargetType": "Dimension",
+            "DimensionName": "Transformation",
+            "DimensionAttribute": "Name",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "23",
+            "TargetType": "Dimension",
+            "DimensionName": "Transformation",
+            "DimensionAttribute": "Parent",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "24",
+            "TargetType": "Unit",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "25",
+            "TargetType": "Date",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "26",
+            "TargetType": "Value",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         }
+      ],
+      "Fixed": []
+   },
+   "Action": "Update",
+   "DateFormat": "",
+   "CultureId": "",
+   "EmptyValueText": "",
+   "ReviewData": false
+}

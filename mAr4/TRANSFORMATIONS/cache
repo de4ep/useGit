@@ -1,0 +1,7 @@
+var id34945 = Knoema.UseDataset("34945");
+var betaEgyptTradeStatisticsClassificationHS6 = Knoema.UseDataset("beta Egypt Trade Statistics Classification HS-6");
+var egyptTradeStatisticsClassificationHS6 = Knoema.UseDataset("Egypt Trade Statistics Classification HS-6");
+var imfIsDBEconomicOutlookApril2015 = Knoema.UseDataset("IMF IsDB Economic Outlook, April 2015");
+foreach (var sector in id34945.Dimensions["Sector"]["KN.S2", "KN.S8", "KN.S11"])
+{
+}

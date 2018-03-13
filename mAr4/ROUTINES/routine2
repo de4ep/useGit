@@ -1,0 +1,13 @@
+{
+ "Routines": [
+  {
+   "Type": "Transformation",
+   "Path": "runOnServer\\routrine2trans1"
+  },
+  {
+   "Type": "Transformation",
+   "Path": "runOnServer\\trans2"
+  }
+ ],
+ "StopIfError": true
+}

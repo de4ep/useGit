@@ -1,0 +1,10 @@
+var msg = string.Format("{0}: start execution of trans1", DateTime.Now.ToString());
+Console.WriteLine(msg);
+File.AppendAllLines(@"C:\Temp\runOnServer.txt", new[]{msg});
+
+for (var i = 0; i < 5; i++)
+{
+    msg = string.Format("{0}: trans1 - message {1}", DateTime.Now.ToString(), i);
+    Console.WriteLine(msg);
+    File.AppendAllLines(@"C:\Temp\runOnServer.txt", new[]{msg});
+}

@@ -1,0 +1,64 @@
+{
+   "TargetDataset": {
+      "DatasetPath": "ts2new",
+      "Metadata": {
+         "Name": "ts2new",
+         "DatasetId": "",
+         "Host": "knoema.com",
+         "Description": "",
+         "Source": "",
+         "ReferenceUrl": "",
+         "PublicationDate": "",
+         "AccessedOn": ""
+      }
+   },
+   "DataSource": {
+      "Id": "XLSX",
+      "File": "C:\\2018\\01\\2ts.xlsx",
+      "Sheet": "NumberTS",
+      "TableTop": 0,
+      "TableLeft": 0
+   },
+   "Bindings": {
+      "Mappings": [
+         {
+            "SourceField": "9",
+            "TargetType": "Date",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "10",
+            "TargetType": "Value",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         }
+      ],
+      "Fixed": [
+         {
+            "TargetType": "Dimension",
+            "DimensionName": "Country",
+            "Value": "914"
+         },
+         {
+            "TargetType": "Dimension",
+            "DimensionName": "Indicator",
+            "Value": "NGDP"
+         },
+         {
+            "TargetType": "Frequency",
+            "Value": "H"
+         },
+         {
+            "TargetType": "Unit",
+            "SourceDimension": "Country",
+            "DimensionAttribute": "RegionId"
+         }
+      ]
+   },
+   "Action": "Update",
+   "DateFormat": "",
+   "CultureId": "",
+   "EmptyValueText": "",
+   "ReviewData": true
+}

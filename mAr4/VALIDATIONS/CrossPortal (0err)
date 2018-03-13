@@ -1,0 +1,16 @@
+{
+ "DatasetPath": "myCrossVal beta",
+ "Kind": 9,
+ "Filters": [
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "A"
+   ]
+  }
+ ],
+ "CheckAddedValues": true,
+ "CheckRemovedValues": true,
+ "CheckChangedValues": true,
+ "ComparatorDatasetPath": "myCrossVal"
+}

@@ -1,0 +1,5 @@
+9:25:51 AM: Executing routine ngdp_rpch
+9:25:51 AM: Executing ngdp_rpch
+9:25:55 AM: Error: (7,34): error CS1503: Argument 1: cannot convert from 'DM.Transformations.TimeSeries [C:\_Backup\20171026\DM - netStandard\DataManagement\bin\DM.Transformations.dll]' to 'DM.Transformations.TimeSeries [DM.Transformations, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]'
+9:25:55 AM: ngdp_rpch has been executed with error(s)
+9:25:55 AM: ngdp_rpch has been executed with error(s)

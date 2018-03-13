@@ -1,0 +1,20 @@
+{
+ "DatasetPath": "importFreq",
+ "Kind": 3,
+ "Filters": [
+  {
+   "DimensionName": "Time",
+   "Elements": [
+    "2007-2017"
+   ]
+  },
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "A"
+   ]
+  }
+ ],
+ "LevelType": "More",
+ "Threshold": 0
+}

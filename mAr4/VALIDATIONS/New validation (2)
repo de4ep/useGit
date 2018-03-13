@@ -1,0 +1,14 @@
+{
+ "DatasetPath": "weoOct",
+ "Kind": 3,
+ "Filters": [
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "A"
+   ]
+  }
+ ],
+ "LevelType": "More",
+ "Threshold": 5000
+}

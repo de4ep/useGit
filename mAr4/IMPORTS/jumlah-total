@@ -1,0 +1,84 @@
+{
+   "TargetDataset": {
+      "DatasetPath": null,
+      "Metadata": {
+         "Name": "fdr",
+         "DatasetId": "",
+         "Host": "knoema.com",
+         "Description": "",
+         "Source": "",
+         "ReferenceUrl": "",
+         "PublicationDate": "",
+         "AccessedOn": ""
+      }
+   },
+   "DataSource": {
+      "Id": "MultiXLS",
+      "File": "C:\\2017\\11\\Multiple-sheet-data-file.xls",
+      "Sheet": "Johor",
+      "SelectSheets": true,
+      "Sheets": [
+         "Johor",
+         "Kedah"
+      ],
+      "UnpivotDataTop": 6,
+      "UnpivotDataLeft": 1,
+      "TableTop": 5,
+      "TableLeft": 0,
+      "TableBottom": 7,
+      "TableRight": 5
+   },
+   "Bindings": {
+      "Mappings": [
+         {
+            "SourceField": "0",
+            "TargetType": "Dimension",
+            "DimensionName": "sheeet",
+            "DimensionAttribute": "",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "1",
+            "TargetType": "Date",
+            "IgnoreList": [
+               "2014r"
+            ],
+            "ReplaceMap": [
+               {
+                  "Value": "2011r",
+                  "ReplaceWith": "2011"
+               },
+               {
+                  "Value": "2012r",
+                  "ReplaceWith": "2012"
+               },
+               {
+                  "Value": "2013r",
+                  "ReplaceWith": "2013"
+               }
+            ]
+         },
+         {
+            "SourceField": "2",
+            "TargetType": "Dimension",
+            "DimensionName": "df",
+            "DimensionAttribute": "",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         },
+         {
+            "SourceField": "3",
+            "TargetType": "Value",
+            "IgnoreList": [],
+            "ReplaceMap": []
+         }
+      ],
+      "Fixed": []
+   },
+   "Overwrite": false,
+   "DateFormat": "",
+   "CultureId": "",
+   "EmptyValueText": "",
+   "ReviewData": true
+}

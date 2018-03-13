@@ -1,0 +1,4 @@
+var id34945 = Knoema.UseDataset("34945");
+id34945.LoadData(id34945.Dimensions["Sector"]["KN.S1", "KN.S9", "KN.S13"], id34945.Dimensions["Measure"]["KN.M3"]);
+id34945["KN.S1", "KN.M3"] = id34945["KN.S1", "KN.M3"] + 100;
+id34945.SaveData(SaveOptions.Update);

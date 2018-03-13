@@ -1,0 +1,15 @@
+{
+  "DatasetId":"COMTRADE2015R1",
+  "Host":"knoema.com",
+  "AppID":"",
+  "AppSecret":"",
+  "ValidationRunPath":"",
+  "RedShiftFiles":[
+    "C:\\_Files\\data_COMTRADE2015R1_20171016\\data_COMTRADE2015R1_20171016_0000",
+    "C:\\_Files\\data_COMTRADE2015R1_20171016\\data_COMTRADE2015R1_20171016_0001",
+    "C:\\_Files\\data_COMTRADE2015R1_20171016\\data_COMTRADE2015R1_20171016_0002",
+    "C:\\_Files\\data_COMTRADE2015R1_20171016\\data_COMTRADE2015R1_20171016_0003",
+    "C:\\_Files\\data_COMTRADE2015R1_20171016\\data_COMTRADE2015R1_20171016_0004",
+    "C:\\_Files\\data_COMTRADE2015R1_20171016\\data_COMTRADE2015R1_20171016_0005"
+  ]
+}
