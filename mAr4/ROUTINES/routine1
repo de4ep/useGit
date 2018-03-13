@@ -7,6 +7,10 @@
   {
    "Type": "Transformation",
    "Path": "runOnServer\\trans1"
+  },
+{
+   "Type": "Transformation",
+   "Path": "runOnServer\\trans1"
   }
  ],
  "StopIfError": true
