@@ -8,7 +8,3 @@ for (var i = 0; i < 5; i++)
     Console.WriteLine(msg);
     File.AppendAllLines(@"C:\Temp\runOnServer.txt", new[]{msg});
 }
-
-msg = string.Format("{0}: end execution of trans1", DateTime.Now.ToString());
-Console.WriteLine(msg);
-File.AppendAllLines(@"C:\Temp\runOnServer.txt", new[]{msg});
