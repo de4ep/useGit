@@ -1,5 +1,0 @@
-var betaEgyptTradeStatisticsClassificationHS6 = Knoema.UseDataset("beta Egypt Trade Statistics Classification HS-6");
-var nationalAccountsAggregatedUseTableAccordingToOrganizationalSectorsEconomicActivities2010 = Knoema.UseDataset("National Accounts, Aggregated Use Table According To Organizational sectors & Economic Activities , 2010");
-var surajUpdate = Knoema.UseDataset("Suraj-Update");
-var weooct = Knoema.UseDataset("weoOct");
-var q = betaEgyptTradeStatisticsClassificationHS6["KN.AFR", "950477931", "TOTAL", "KN.S1", "KN.I", "KN.EP"];

@@ -1,0 +1,9 @@
+{
+ "Routines": [
+  {
+   "Type": "Transformation",
+   "Path": "runOnServer\\justOutIt"
+  }
+ ],
+ "StopIfError": true
+}

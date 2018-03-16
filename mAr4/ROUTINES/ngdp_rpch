@@ -1,9 +1,0 @@
-{
- "Routines": [
-  {
-   "Type": "Transformation",
-   "Path": "ngdp_rpch"
-  }
- ],
- "StopIfError": true
-}

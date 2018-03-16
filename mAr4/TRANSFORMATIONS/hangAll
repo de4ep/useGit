@@ -1,4 +1,0 @@
-var ie2 = Knoema.UseDataset("ie2");
-ie2.LoadData();
-var ts2new = Knoema.UseDataset("ts2new");
-ts2new.LoadData();

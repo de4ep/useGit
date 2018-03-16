@@ -1,5 +1,0 @@
-var ieyystd = Knoema.UseDataset("ieyystd");
-ieyystd["WLD", "TOTAL", "KN.ALL", "KN.T", "KN.EP"] = 4;
-foreach (var exportingCouncilsClassifications in ieyystd.Dimensions["Exporting Councils Classifications"])
-{
-}
