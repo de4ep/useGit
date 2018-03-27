@@ -1,0 +1,21 @@
+{
+ "DatasetPath": "frIm",
+ "Kind": 3,
+ "Filters": [
+  {
+   "DimensionName": "Time",
+   "Elements": [
+    "2001M1-2011M12"
+   ]
+  },
+  {
+   "DimensionName": "Frequency",
+   "Elements": [
+    "A",
+    "M"
+   ]
+  }
+ ],
+ "LevelType": "More",
+ "Threshold": 0
+}
