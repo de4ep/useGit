@@ -1,0 +1,9 @@
+{
+ "Routines": [
+  {
+   "Type": "Import",
+   "Path": "newFileGen\\2red - update 3 series"
+  }
+ ],
+ "StopIfError": true
+}
