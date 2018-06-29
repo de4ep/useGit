@@ -2,7 +2,19 @@
  "Routines": [
   {
    "Type": "Import",
+   "Path": "newFileGen\\sqlUpdate"
+  },
+  {
+   "Type": "Import",
+   "Path": "newFileGen\\sqlOverwrite"
+  },
+  {
+   "Type": "Import",
    "Path": "newFileGen\\2red - update 3 series"
+  },
+  {
+   "Type": "Import",
+   "Path": "newFileGen\\2red - overwrite 2 series"
   }
  ],
  "StopIfError": true
