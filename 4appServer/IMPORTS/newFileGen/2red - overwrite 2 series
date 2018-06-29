@@ -1,6 +1,6 @@
 {
    "TargetDataset": {
-      "DatasetPath": "denisctest",
+      "DatasetPath": "denisctest on prod",
       "Metadata": {
          "Name": "Denis Cheplygin Test DS",
          "DatasetId": "",
