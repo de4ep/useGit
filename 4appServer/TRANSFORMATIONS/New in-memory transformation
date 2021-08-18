@@ -1,0 +1,4 @@
+WriteLine("The script has started");
+// var ds = Knoema.UseDataset("IMFWEO2016Oct");
+// ds.LoadData();
+// WriteLine($"Time series count: {ds.SeriesCount:#,##0}");

@@ -1,0 +1,10 @@
+{
+   "Routines": [
+      {
+         "Type": "Transformation",
+         "Path": "New in-memory transformation"
+      }
+   ],
+   "StopIfError": true,
+   "Notifications": []
+}
