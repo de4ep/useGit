@@ -1,0 +1,10 @@
+{
+   "Routines": [
+      {
+         "Type": "Command",
+         "Path": "Update dataset dump"
+      }
+   ],
+   "StopIfError": true,
+   "Notifications": []
+}
