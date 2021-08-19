@@ -1,0 +1,8 @@
+{
+   "Type": "Execute",
+   "File": "C:\\Dataops\\DM.UpdateDataOpsDump.exe",
+   "Arguments": "",
+   "WorkingDirectory": "C:\\Dataops",
+   "ProcessOutputPattern": "",
+   "ProcessErrorPattern": ""
+}
