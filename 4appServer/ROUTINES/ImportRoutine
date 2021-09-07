@@ -6,7 +6,7 @@
       },
       {
          "Type": "Import",
-         "Path": "CreateNewDataset"
+         "Path": "NewImport3"
       }
    ],
    "StopIfError": true,
