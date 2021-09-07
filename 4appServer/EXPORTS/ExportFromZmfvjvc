@@ -1,5 +1,5 @@
 {
-   "DatasetDescriptor": "zmfvjvc",
+   "DatasetDescriptor": "TestDataset",
    "FileNameTemplate": "zmfvjvcUpdate",
    "Compress": false,
    "Filters": [
@@ -30,36 +30,60 @@
          "AttributeId": "RegionId"
       },
       {
-         "DimensionId": "indicator-1",
+         "DimensionId": "indicator",
          "AttributeId": "Name"
       },
       {
-         "DimensionId": "indicator-1",
+         "DimensionId": "indicator",
          "AttributeId": "Level"
       },
       {
-         "DimensionId": "indicator-1",
+         "DimensionId": "indicator",
          "AttributeId": "Parent Id"
       },
       {
-         "DimensionId": "indicator-1",
+         "DimensionId": "indicator",
          "AttributeId": "Parent Name"
       },
       {
-         "DimensionId": "indicator-2",
-         "AttributeId": "Name"
+         "DimensionId": "indicator",
+         "AttributeId": "1"
       },
       {
-         "DimensionId": "indicator-2",
-         "AttributeId": "Level"
+         "DimensionId": "indicator",
+         "AttributeId": "1-name"
       },
       {
-         "DimensionId": "indicator-2",
-         "AttributeId": "Parent Id"
+         "DimensionId": "indicator",
+         "AttributeId": "1-level"
       },
       {
-         "DimensionId": "indicator-2",
-         "AttributeId": "Parent Name"
+         "DimensionId": "indicator",
+         "AttributeId": "1-parent-id"
+      },
+      {
+         "DimensionId": "indicator",
+         "AttributeId": "1-parent-name"
+      },
+      {
+         "DimensionId": "indicator",
+         "AttributeId": "2"
+      },
+      {
+         "DimensionId": "indicator",
+         "AttributeId": "2-name"
+      },
+      {
+         "DimensionId": "indicator",
+         "AttributeId": "2-level"
+      },
+      {
+         "DimensionId": "indicator",
+         "AttributeId": "2-parent-id"
+      },
+      {
+         "DimensionId": "indicator",
+         "AttributeId": "2-parent-name"
       }
    ],
    "Format": "csv",
