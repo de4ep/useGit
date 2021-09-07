@@ -1,0 +1,14 @@
+{
+   "Routines": [
+      {
+         "Type": "Export",
+         "Path": "ExportFromZmfvjvc"
+      },
+      {
+         "Type": "Import",
+         "Path": "CreateNewDataset"
+      }
+   ],
+   "StopIfError": true,
+   "Notifications": []
+}

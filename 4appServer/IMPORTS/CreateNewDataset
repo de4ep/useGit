@@ -1,0 +1,191 @@
+{
+   "TargetDataset": {
+      "DatasetPath": "<NewRegular>",
+      "Metadata": {
+         "Name": "TestDataset",
+         "DatasetId": "",
+         "Host": "bofaml-adm.knoema.org",
+         "StorageType": "Default",
+         "Dimensions": "Region;Indicator",
+         "Description": "",
+         "Source": "",
+         "ReferenceUrl": "",
+         "PublicationDate": "",
+         "AccessedOn": "",
+         "NextReleaseDate": "",
+         "UpdatePriority": ""
+      }
+   },
+   "DataSource": {
+      "Id": "CSV",
+      "File": "C:\\tmp\\zmfvjvcUpdate.csv",
+      "Delimiter": ",",
+      "TableTop": 0,
+      "TableLeft": 0
+   },
+   "Bindings": {
+      "Mappings": [
+         {
+            "TargetType": "Dimension",
+            "DimensionName": "Region",
+            "DimensionAttribute": "",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "0"
+         },
+         {
+            "TargetType": "Dimension",
+            "DimensionName": "Region",
+            "DimensionAttribute": "Name",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "1"
+         },
+         {
+            "TargetType": "Dimension",
+            "DimensionName": "Region",
+            "DimensionAttribute": "Level",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "2"
+         },
+         {
+            "TargetType": "Dimension",
+            "DimensionName": "Region",
+            "DimensionAttribute": "RegionId",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "3"
+         },
+         {
+            "TargetType": "Dimension",
+            "DimensionName": "Region",
+            "DimensionAttribute": "ParentId",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "4"
+         },
+         {
+            "TargetType": "Dimension",
+            "DimensionName": "Region",
+            "DimensionAttribute": "ParentName",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "5"
+         },
+         {
+            "TargetType": "Dimension",
+            "DimensionName": "Indicator",
+            "DimensionAttribute": "1",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "6"
+         },
+         {
+            "TargetType": "Dimension",
+            "DimensionName": "Indicator",
+            "DimensionAttribute": "1 Name",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "7"
+         },
+         {
+            "TargetType": "Dimension",
+            "DimensionName": "Indicator",
+            "DimensionAttribute": "1 Level",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "8"
+         },
+         {
+            "TargetType": "Dimension",
+            "DimensionName": "Indicator",
+            "DimensionAttribute": "1 Parent Id",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "9"
+         },
+         {
+            "TargetType": "Dimension",
+            "DimensionName": "Indicator",
+            "DimensionAttribute": "1 Parent Name",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "10"
+         },
+         {
+            "TargetType": "Dimension",
+            "DimensionName": "Indicator",
+            "DimensionAttribute": "2",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "11"
+         },
+         {
+            "TargetType": "Dimension",
+            "DimensionName": "Indicator",
+            "DimensionAttribute": "2 Name",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "12"
+         },
+         {
+            "TargetType": "Dimension",
+            "DimensionName": "Indicator",
+            "DimensionAttribute": "2 Level",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "13"
+         },
+         {
+            "TargetType": "Dimension",
+            "DimensionName": "Indicator",
+            "DimensionAttribute": "2 Parent Id",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "14"
+         },
+         {
+            "TargetType": "Dimension",
+            "DimensionName": "Indicator",
+            "DimensionAttribute": "2 Parent Name",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "15"
+         },
+         {
+            "TargetType": "Unit",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "16"
+         },
+         {
+            "TargetType": "Date",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "17"
+         },
+         {
+            "TargetType": "Value",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "18"
+         }
+      ],
+      "Fixed": []
+   },
+   "Action": "Update",
+   "DateFormat": "",
+   "CultureId": "",
+   "EmptyValueText": "",
+   "ReviewData": false,
+   "AddNewElementsToDimensions": false,
+   "ValidationRules": {
+      "UseMissingValuesRule": false,
+      "UseMissingUnitsRule": false,
+      "UseMissingHierarchyRule": false,
+      "UseMissingRegionRule": false,
+      "UseDuplicateNamesRule": false,
+      "UseMissingTickerRule": false
+   }
+}

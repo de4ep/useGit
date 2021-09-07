@@ -1,0 +1,70 @@
+{
+   "DatasetDescriptor": "zmfvjvc",
+   "FileNameTemplate": "zmfvjvcUpdate",
+   "Compress": false,
+   "Filters": [
+      {
+         "DimensionName": "Frequency",
+         "Elements": []
+      }
+   ],
+   "DimensionsAttributes": [
+      {
+         "DimensionId": "region",
+         "AttributeId": "Name"
+      },
+      {
+         "DimensionId": "region",
+         "AttributeId": "Level"
+      },
+      {
+         "DimensionId": "region",
+         "AttributeId": "Parent Id"
+      },
+      {
+         "DimensionId": "region",
+         "AttributeId": "Parent Name"
+      },
+      {
+         "DimensionId": "region",
+         "AttributeId": "RegionId"
+      },
+      {
+         "DimensionId": "indicator-1",
+         "AttributeId": "Name"
+      },
+      {
+         "DimensionId": "indicator-1",
+         "AttributeId": "Level"
+      },
+      {
+         "DimensionId": "indicator-1",
+         "AttributeId": "Parent Id"
+      },
+      {
+         "DimensionId": "indicator-1",
+         "AttributeId": "Parent Name"
+      },
+      {
+         "DimensionId": "indicator-2",
+         "AttributeId": "Name"
+      },
+      {
+         "DimensionId": "indicator-2",
+         "AttributeId": "Level"
+      },
+      {
+         "DimensionId": "indicator-2",
+         "AttributeId": "Parent Id"
+      },
+      {
+         "DimensionId": "indicator-2",
+         "AttributeId": "Parent Name"
+      }
+   ],
+   "Format": "csv",
+   "StorageSetting": {
+      "Type": "local",
+      "Directory": "C:\\tmp"
+   }
+}

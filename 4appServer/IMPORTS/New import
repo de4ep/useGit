@@ -1,0 +1,79 @@
+{
+   "TargetDataset": {
+      "DatasetPath": "zmfvjvc",
+      "Metadata": {
+         "PublicationDate": "",
+         "AccessedOn": "",
+         "NextReleaseDate": ""
+      }
+   },
+   "DataSource": {
+      "Id": "CSV",
+      "File": "C:\\2021\\zmfvjvcUpdate.csv",
+      "Delimiter": ",",
+      "TableTop": 0,
+      "TableLeft": 0
+   },
+   "Bindings": {
+      "Mappings": [
+         {
+            "TargetType": "Dimension",
+            "DimensionName": "Region",
+            "DimensionAttribute": "",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "0"
+         },
+         {
+            "TargetType": "Dimension",
+            "DimensionName": "Indicator 1",
+            "DimensionAttribute": "",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "6"
+         },
+         {
+            "TargetType": "Dimension",
+            "DimensionName": "Indicator 2",
+            "DimensionAttribute": "",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "11"
+         },
+         {
+            "TargetType": "Unit",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "16"
+         },
+         {
+            "TargetType": "Date",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "17"
+         },
+         {
+            "TargetType": "Value",
+            "IgnoreList": [],
+            "ReplaceMap": [],
+            "SourceField": "18"
+         }
+      ],
+      "Fixed": []
+   },
+   "Action": "Update",
+   "DateFormat": "",
+   "CultureId": "",
+   "EmptyValueText": "",
+   "ReviewData": false,
+   "AddNewElementsToDimensions": false,
+   "SuccessOnNoData": false,
+   "ValidationRules": {
+      "UseMissingValuesRule": false,
+      "UseMissingUnitsRule": false,
+      "UseMissingHierarchyRule": false,
+      "UseMissingRegionRule": false,
+      "UseDuplicateNamesRule": false,
+      "UseMissingTickerRule": false
+   }
+}
