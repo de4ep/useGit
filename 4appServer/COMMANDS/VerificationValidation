@@ -1,0 +1,8 @@
+{
+   "Type": "Execute",
+   "File": "dm_validate_verification",
+   "Arguments": "",
+   "WorkingDirectory": "",
+   "ProcessOutputPattern": "",
+   "ProcessErrorPattern": ""
+}
