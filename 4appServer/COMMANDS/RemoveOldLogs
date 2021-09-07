@@ -1,0 +1,8 @@
+{
+   "Type": "Execute",
+   "File": "dm_remove_old_logs",
+   "Arguments": "",
+   "WorkingDirectory": "",
+   "ProcessOutputPattern": "",
+   "ProcessErrorPattern": ""
+}

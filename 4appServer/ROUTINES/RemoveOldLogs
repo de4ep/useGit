@@ -1,0 +1,10 @@
+{
+   "Routines": [
+      {
+         "Type": "Command",
+         "Path": "RemoveOldLogs"
+      }
+   ],
+   "StopIfError": true,
+   "Notifications": []
+}
