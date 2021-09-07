@@ -1,10 +1,6 @@
 {
    "Routines": [
       {
-         "Type": "Export",
-         "Path": "ExportFromZmfvjvc"
-      },
-      {
          "Type": "Import",
          "Path": "UpdateDataset"
       }

@@ -9,7 +9,7 @@
    },
    "DataSource": {
       "Id": "CSV",
-      "File": "C:\\tmp\\zmfvjvcUpdate.csv",
+      "File": "C:\\Temp\\zmfvjvcUpdate.csv",
       "Delimiter": ",",
       "TableTop": 0,
       "TableLeft": 0
@@ -19,108 +19,30 @@
          {
             "TargetType": "Dimension",
             "DimensionName": "Region",
-            "DimensionAttribute": "Id",
+            "DimensionAttribute": "",
             "IgnoreList": [],
             "ReplaceMap": [],
             "SourceField": "0"
          },
          {
             "TargetType": "Dimension",
-            "DimensionName": "Region",
-            "DimensionAttribute": "Name",
+            "DimensionName": "Indicator",
+            "DimensionAttribute": "",
             "IgnoreList": [],
             "ReplaceMap": [],
             "SourceField": "1"
          },
          {
-            "TargetType": "Dimension",
-            "DimensionName": "Region",
-            "DimensionAttribute": "RegionId",
-            "IgnoreList": [],
-            "ReplaceMap": [],
-            "SourceField": "3"
-         },
-         {
-            "TargetType": "Dimension",
-            "DimensionName": "Region",
-            "DimensionAttribute": "ParentId",
-            "IgnoreList": [],
-            "ReplaceMap": [],
-            "SourceField": "4"
-         },
-         {
-            "TargetType": "Dimension",
-            "DimensionName": "Region",
-            "DimensionAttribute": "HierarchyLevelId0",
-            "IgnoreList": [],
-            "ReplaceMap": [],
-            "SourceField": "5"
-         },
-         {
-            "TargetType": "Dimension",
-            "DimensionName": "Indicator",
-            "DimensionAttribute": "Id",
-            "IgnoreList": [],
-            "ReplaceMap": [],
-            "SourceField": "6"
-         },
-         {
-            "TargetType": "Dimension",
-            "DimensionName": "Indicator",
-            "DimensionAttribute": "Name",
-            "IgnoreList": [],
-            "ReplaceMap": [],
-            "SourceField": "7"
-         },
-         {
-            "TargetType": "Dimension",
-            "DimensionName": "Indicator",
-            "DimensionAttribute": "1",
-            "IgnoreList": [],
-            "ReplaceMap": [],
-            "SourceField": "9"
-         },
-         {
-            "TargetType": "Dimension",
-            "DimensionName": "Indicator",
-            "DimensionAttribute": "2",
-            "IgnoreList": [],
-            "ReplaceMap": [],
-            "SourceField": "10"
-         },
-         {
-            "TargetType": "Dimension",
-            "DimensionName": "Indicator",
-            "DimensionAttribute": "ParentId",
-            "IgnoreList": [],
-            "ReplaceMap": [],
-            "SourceField": "11"
-         },
-         {
-            "TargetType": "Dimension",
-            "DimensionName": "Indicator",
-            "DimensionAttribute": "HierarchyLevelId0",
-            "IgnoreList": [],
-            "ReplaceMap": [],
-            "SourceField": "12"
-         },
-         {
-            "TargetType": "Unit",
-            "IgnoreList": [],
-            "ReplaceMap": [],
-            "SourceField": "13"
-         },
-         {
             "TargetType": "Date",
             "IgnoreList": [],
             "ReplaceMap": [],
-            "SourceField": "14"
+            "SourceField": "2"
          },
          {
             "TargetType": "Value",
             "IgnoreList": [],
             "ReplaceMap": [],
-            "SourceField": "15"
+            "SourceField": "3"
          }
       ],
       "Fixed": []
