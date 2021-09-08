@@ -2,6 +2,10 @@
    "Routines": [
       {
          "Type": "Command",
+         "Path": "Update dataset dump"
+      },
+      {
+         "Type": "Command",
          "Path": "UpdateDatasetDump"
       }
    ],
