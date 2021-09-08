@@ -10,7 +10,7 @@
    "DataSource": {
       "Id": "CSV",
       "File": "C:\\Temp\\zmfvjvcUpdate.csv",
-      "Delimiter": ",",
+      "Delimiter": ";",
       "TableTop": 0,
       "TableLeft": 0
    },

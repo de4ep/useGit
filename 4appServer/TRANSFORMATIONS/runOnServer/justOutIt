@@ -1,8 +1,0 @@
-var msg = string.Format("{0}: start execution of justOutIt", DateTime.Now.ToString());
-WriteLine(msg);
-
-for (var i = 0; i < 5; i++)
-{
-    msg = string.Format("{0}: justOutIt - message {1}", DateTime.Now.ToString(), i);
-    WriteLine(msg);
-}
